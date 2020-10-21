@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title> Register </title>
+
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+	<link rel="stylesheet" type="text/css" href="css/style-regsiter.css">
+</head>
+
+<body>
+	<div class="card">
+		<div class="content">
+			<div class="title">
+				<h2> REGISTER </h2>
+				<div class="underline"> </div>
+			</div>
+
+			<form method="post" class="form">
+				<label for="name" style="padding-top:13px">&nbsp;Name</label>
+  				<input id="user-name" class="form-content" type="text" name="name" autocomplete="on" required />
+  				<div class="form-border"></div>
+
+  				<label for="user-email" style="padding-top:22px">&nbsp;Email</label>
+  				<input id="user-email" class="form-content" type="email" name="email" required />
+  				<div class="form-border"></div>
+
+  				
+  				<label for="user-password" style="padding-top:22px">&nbsp;Password</label>
+  				<input id="user-password" class="form-content" type="password" name="password" required />
+  				<div class="form-border"></div>
+
+  				<label for="user-gender" style="padding-top:22px">&nbsp;Gender</label>
+  				<label style="padding-top:22px; margin-right: 20px; padding-bottom: 8px" class="gender">
+  					<input type="radio" name="gender" value="Female" id="female" /> Female &nbsp;&nbsp;&nbsp;&nbsp;
+  					<input type="radio" name="gender" value="Male" id="male" />&nbsp; Male
+  				</label>
+  				<div class="form-border"></div>
+
+  				<label for="user-skills" style="padding-top:22px">&nbsp;Skills</label>
+  				<label style="padding-top:22px">
+  					<input id="user-skills" class="form-content" type="checkbox" name="skills1" value="Graphic Design" /> Graphic Design &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  					<input id="user-skills" class="form-content" type="checkbox" name="skills2" value="IT & Networking" /> IT & Networking
+  				</label>
+  				<label style="padding-top:10px; padding-bottom: 8px">
+  					<input id="user-skills" class="form-content" type="checkbox" name="skills3" value="Analytics" /> Analytics &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  					<input id="user-skills" class="form-content" type="checkbox" name="skills4" value="Architecture" /> Architecture
+  				</label>
+  				<div class="form-border"></div>
+
+  				<label for="user-religion" style="padding-top:22px">&nbsp;Religion</label>
+  				<label style="padding-top:22px; padding-bottom: 8px">
+  					<select name="religion" id="religion">
+  						<option value="Kristen">Kristen</option>
+  						<option value="Kristen">Katolik</option>
+  						<option value="Kristen">Hindu</option>
+  						<option value="Kristen">Budha</option>
+  						<option value="Kristen">Islam</option>
+  						<option value="Kristen">Konghucu</option>
+  					</select>
+  				</label>
+  				<div class="form-border"></div>
+
+  				<label for="user-photo" style="padding-top:22px">&nbsp;Upload your photo</label>
+  				<input style="padding-bottom: 8px" id="user-photo" class="form-content" type="file" name="photo" required />
+  				<div class="form-border"></div>
+
+  				<label for="user-personal" style="padding-top:22px">&nbsp;Describe your personality</label>
+  				<textarea id="user-personal" rows="5" cols="50" name="personal"> </textarea>
+  				<div class="form-border"></div>
+
+  				<ul>
+  					<li>
+  						<button type="button" name="submit"> REGISTER </button>
+  						<button type="reset" name="reset"> RESET </button>
+  					</li>
+  				</ul>
+
+  				<a href="login.html"><legend id="signin">Have an Account? Login here</legend></a>
+			</form>
+			
+		</div>
+	</div>
+
+</body>
+</html>
