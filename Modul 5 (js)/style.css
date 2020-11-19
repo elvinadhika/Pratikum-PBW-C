@@ -1,0 +1,133 @@
+*{
+    padding: 0;
+    margin: 0;
+    background-origin: padding-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    font-size: 16px;
+    background-color: #e8e8e8;
+}
+
+.container{
+    position: absolute;
+
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+}
+
+.calc-container{
+    background-color: #838383;
+
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.output{
+    width: 100%;;
+}   
+
+.hitung{
+    width: 300px;
+    height: 70px;
+
+    color: #ebecf1;
+
+    font-size: 1.5em;
+    font-weight: bold;
+
+    position: relative;
+    overflow: hidden;
+}
+.hitung .nilai{
+    position: absolute;
+
+    bottom: 5px;
+    right : 10px;
+    
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.result{
+    width: 300px;
+    height: 100px;
+
+    color: #FFF;
+
+    font-size: 2.7em;
+    font-weight: bold;
+    
+    overflow: hidden;
+    position: relative;
+}
+
+.result .value{
+    position: absolute;
+
+    top: 50%;
+    transform: translateY(-50%);
+    right : 10px;
+    
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.batas {
+    height: 5px;
+    background-color: #e8e8e8;
+}
+
+
+.input{
+    background-color: #FFF;
+
+    border-radius: 0 0 10px 10px;
+    border: none;
+    height: 340px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.row button{
+    width: 50px;
+    height: 50px;
+
+    font-size: 1.5em;
+
+    border: none;
+    border-radius: 50%;
+    background-color: transparent;
+
+    margin : 8px;
+
+    cursor: pointer;
+}
+
+.row button:hover{
+    font-weight: bold;
+}
+
+.row #calculate{
+    color: #FFF;
+    background-color: #51adcf;
+    width : 121px;
+    border-radius: 50px;
+}
+.row #backspace{
+    color: #FFF;
+    background-color: #e05046;
+}
+
+#kali, #bagi, #tambah, #kurang, #persen {
+    color: #51adcf;
+    font-size: 30px;
+}
