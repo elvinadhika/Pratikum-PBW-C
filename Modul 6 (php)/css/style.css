@@ -1,0 +1,112 @@
+body{
+  background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(198,180,216,1) 55%, rgba(148,187,233,1) 100%);
+  height: 750px;
+}
+
+.card {
+	background: #fbfbfb;
+  border-radius: 8px;
+  box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.65);
+  height: 650px;
+  margin: 6rem auto 2rem auto;
+  width: 600px;
+  padding-bottom: 10px;
+}
+
+.card-hasil {
+  background: #fbfbfb;
+  border-radius: 8px;
+  box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.65);
+  height: 600px;
+  margin: 2rem auto 2rem auto;
+  width: 600px;
+  margin-top: 0px;
+  padding-bottom: 10px;
+}
+
+
+.card-predikat {
+  background-image: linear-gradient( 109.6deg,  rgba(102,203,149,1) 11.2%, rgba(39,210,175,1) 98.7% );
+  border-radius: 8px;
+  box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.65);
+  height: 70px;
+  margin: 2rem auto 0rem auto; 
+  width: 600px;
+}
+
+.card-predikatD {
+  background-image: radial-gradient( circle farthest-corner at 7.2% 19%,  rgba(120,0,0,1) 0%, rgba(239,75,75,1) 100.2% );
+  border-radius: 8px;
+  box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.65);
+  height: 70px;
+  margin: 2rem auto 6.1rem auto;
+  width: 600px;
+}
+
+.content{
+	padding: 12px 30px;
+}
+
+.content-predikat{
+  padding: 4px 8px;
+  color: white;
+  margin-bottom: 5px;
+}
+
+.title {
+	font-family: "Raleway Thin", sans-serif;
+    letter-spacing: 4px;
+    padding-bottom: 23px;
+    padding-top: 5px;
+    text-align: center;
+}
+
+.underline {
+	background-image: linear-gradient( 109.6deg,  rgba(5,84,94,1) 16%, #bbb 91.1% );
+	height: 2px;
+    margin: -1.1rem auto 0 auto;
+    width: 200px;
+}
+
+a {
+    text-decoration: none;
+}
+
+label {
+    font-family: "Raleway", sans-serif;
+    font-size: 11pt;
+}
+
+.form {
+    align-items: left;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-border {
+    background-image: linear-gradient( 109.6deg,  rgba(5,84,94,1) 16%, #bbb 91.1% );
+    height: 1px;
+    width: 100%;
+}
+
+.form-content {
+    background: #fbfbfb;
+    border: none;
+    outline: none;
+    padding-top: 14px;
+}
+
+.submit {
+	background: #9ba4b4;
+	border: none;
+	color: white;
+	width:90px;
+	height:30px;
+	border-radius:30px;
+  margin-left: 230px;
+}
+
+.submit:hover{
+	color: white;
+	background:#4e89ae;
+}
